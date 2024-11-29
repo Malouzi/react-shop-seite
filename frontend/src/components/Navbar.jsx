@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import { HiMiniBars3CenterLeft } from "react-icons/hi2";
 import { IoSearchOutline } from "react-icons/io5";
+import { HiOutlineUser } from "react-icons/hi";
+import { HiOutlineHeart } from "react-icons/hi2";
+import { HiOutlineShoppingCart } from "react-icons/hi2";
 
 const Navbar = () => {
   return (
@@ -23,8 +26,16 @@ const Navbar = () => {
             </div>
 
             {/* right side */}
-            <div>
-                nav items
+            <div className='reative flex items-center md:space-x-3 space-x-2'>
+                <HiOutlineUser className='size-6'/>
+                <button className='hidden sm:block'>
+                <HiOutlineHeart className='size-6'/>
+                </button>
+
+                <Link to="/cart" className='bg-primary p-1 sm:px-6 px-2 flex items-center rounded-md'>
+                <HiOutlineShoppingCart className='size-6'/>
+                <span className='text-sm font-semibold sm:ml-1'>0</span>
+                </Link>
             </div>
         </nav>
 
