@@ -15,7 +15,7 @@
       "description": "Hilf den mutigen Rittern, den verlorenen Schatz des Königreichs wiederzufinden.",
       "category": "historisch",
       "trending": true,
-      "coverImage": "",
+      "coverImage": "book-2.png",
       "oldPrice": 24.99,
       "newPrice": 14.99
     },
@@ -42,7 +42,7 @@
     {
       "_id": 5,
       "title": "Zauberwald Abenteuer: Die magische Nuss",
-      "description": "Our top picks for non-fiction books to add to your reading list.",
+      "description": "Entdecke die Geheimnisse des Zauberwaldes und finde die magische Nuss.",
       "category": "mystery",
       "trending": true,
       "coverImage": "book-5.png",
