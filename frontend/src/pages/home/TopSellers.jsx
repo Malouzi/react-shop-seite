@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 
-const categories = ["Choose a genre", "Abenteuer", "Mystery", "Historisch"]
+const categories = ["Kategorie auswählen", "Abenteuer", "Mystery", "Historisch"]
 
 const TopSellers = () => {
     
@@ -32,7 +32,7 @@ const filteredBooks = selectedCategory === "Choose a genre" ? books : books.filt
 
     return (
         <div className='py-10'>
-            <h2 className='text-3xl font-semibold mb-6'>Top Sellers</h2>
+            <h2 className='text-3xl font-semibold mb-6'>Sonderangebote</h2>
             {/* category filtering */}
             <div className='mb-8 flex items-center'>
             <select
