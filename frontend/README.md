@@ -12,4 +12,5 @@ npm install react-hook-form
 npm install @reduxjs/toolkit
 npm install react-redux
 npm install swiper
+npm install sweetalert2
 npm run dev
